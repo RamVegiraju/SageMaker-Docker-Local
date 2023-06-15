@@ -3,6 +3,7 @@
 ```
 
 # Start container
+
 docker run \
 -v /home/ec2-user/SageMaker:/opt/ml/model \
 --cpu-shares 512 \
@@ -11,6 +12,7 @@ docker run \
 serve
 
 # Sample request
+
 curl -X POST http://localhost:8080/invocations -H "Content-type: text/plain" "This is a sample test string"
 
 ```
