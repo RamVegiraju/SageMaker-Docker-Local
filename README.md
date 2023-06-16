@@ -17,4 +17,4 @@ curl -X POST http://localhost:8080/invocations -H "Content-type: text/plain" "Th
 
 ```
 
-# [To-Do: Add Blog]
+# [Blog](https://towardsdatascience.com/debugging-sagemaker-endpoints-with-docker-7a703fae3a26)
